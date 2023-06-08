@@ -1,0 +1,42 @@
+.botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .boton {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid black;;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #ddd;
+  }
+  
+  .boton:active {
+    background-color: #999;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Helvetica';
+  }
+  
+  /* Media queries para dispositivos móviles */
+  @media only screen and (max-width: 600px) {
+    .botonera {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .boton {
+      width: 100%;
+    }
+  }
+  
