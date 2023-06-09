@@ -1,17 +1,22 @@
 .botonera {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 0 auto;
+    text-align: center;
   }
   
   .boton {
+    font-size: 55px;
     margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 60px 20px;
+    color: #fff;
+    font-size: 40px;
     background-color: #f1f1f1;
-    border: 1px solid black;;
-    border-radius: 4px;
+    border: 1px solid black;
+    border-radius: 100px;
     cursor: pointer;
+    background-color: rgb(38, 38, 99);
     transition: background-color 0.3s;
   }
   
@@ -29,14 +34,14 @@
   }
   
   /* Media queries para dispositivos móviles */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     .botonera {
       flex-direction: column;
       align-items: center;
     }
   
     .boton {
-      width: 100%;
+        width: 60%;
     }
   }
   
